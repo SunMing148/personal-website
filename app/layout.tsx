@@ -1,17 +1,29 @@
-import { Geist, Geist_Mono, Outfit, Oxanium } from "next/font/google"
+import { Fraunces, Geist_Mono, Inter } from "next/font/google"
 
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/utils"
 
-const oxaniumHeading = Oxanium({subsets:['latin'],variable:'--font-heading'});
-
-const outfit = Outfit({subsets:['latin'],variable:'--font-sans'})
-
-const fontMono = Geist_Mono({
+const fraunces = Fraunces({
   subsets: ["latin"],
-  variable: "--font-mono",
+  variable: "--font-fraunces",
 })
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+})
+
+const geistMono = Geist_Mono({
+  subsets: ["latin"],
+  variable: "--font-geist-mono",
+})
+
+export const metadata = {
+  title: "Wenming Sun — Photographer",
+  description:
+    "Portraits, landscapes, and quiet streets, made in available light. Write to book a sitting.",
+}
 
 export default function RootLayout({
   children,
@@ -22,7 +34,13 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={cn("antialiased", fontMono.variable, "font-sans", outfit.variable, oxaniumHeading.variable)}
+      className={cn(
+        "antialiased",
+        "font-sans",
+        fraunces.variable,
+        inter.variable,
+        geistMono.variable
+      )}
     >
       <body>
         <ThemeProvider>{children}</ThemeProvider>
