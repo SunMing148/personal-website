@@ -20,7 +20,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata = {
-  title: "Wenming Sun — Photographer",
+  title: "Alex Lane — Photographer",
   description:
     "Portraits, landscapes, and quiet streets, made in available light. Write to book a sitting.",
 }
