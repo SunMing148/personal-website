@@ -7,9 +7,9 @@
  */
 
 export const site = {
-  name: "Wenming Sun",
-  wordmark: "Wenming Sun",
-  email: "sun_ming148@163.com",
+  name: "Alex Lane",
+  wordmark: "Alex Lane",
+  email: "hello@example.com",
   intro: "Portraits, landscapes, and quiet streets — made in available light.",
 }
 

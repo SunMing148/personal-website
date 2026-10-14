@@ -1,4 +1,4 @@
-# Wenming Sun — Photographer
+# Alex Lane — Photographer
 
 A small portfolio site: an introduction, a selection of work, pricing, and an
 email you can't miss. Built on Next.js with shadcn/ui, Tailwind CSS v4, and
