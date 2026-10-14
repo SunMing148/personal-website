@@ -24,7 +24,7 @@ export function About() {
               src={portraitPhoto.src}
               alt={portraitPhoto.alt}
               fill
-              sizes="(min-width: 768px) 347px, 100vw"
+              sizes="(min-width: 1152px) 341px, (min-width: 768px) 31vw, 100vw"
               className="object-cover"
             />
           </div>

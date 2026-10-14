@@ -6,6 +6,7 @@ import { ThemeToggle } from "@/components/site/theme-toggle"
 import { site } from "@/lib/photos"
 
 const nav = [
+  { href: "#about", label: "About" },
   { href: "#work", label: "Work" },
   { href: "#pricing", label: "Pricing" },
   { href: "#contact", label: "Contact" },

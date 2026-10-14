@@ -49,7 +49,7 @@ export const gallery: GalleryPhoto[] = [
 
     ratio: "aspect-[3/2]",
 
-    sizes: "(min-width: 768px) 58vw, 100vw",
+    sizes: "(min-width: 1152px) 634px, (min-width: 768px) 58vw, 100vw",
   },
   {
     src: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1200&q=80",
@@ -60,7 +60,7 @@ export const gallery: GalleryPhoto[] = [
 
     ratio: "aspect-[4/5]",
 
-    sizes: "(min-width: 768px) 42vw, 100vw",
+    sizes: "(min-width: 1152px) 446px, (min-width: 768px) 42vw, 100vw",
   },
   {
     src: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1200&q=80",
@@ -71,7 +71,7 @@ export const gallery: GalleryPhoto[] = [
 
     ratio: "aspect-square",
 
-    sizes: "(min-width: 768px) 33vw, 100vw",
+    sizes: "(min-width: 1152px) 352px, (min-width: 768px) 33vw, 100vw",
   },
   {
     src: "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1800&q=80",
@@ -82,7 +82,7 @@ export const gallery: GalleryPhoto[] = [
 
     ratio: "aspect-[3/2]",
 
-    sizes: "(min-width: 768px) 66vw, 100vw",
+    sizes: "(min-width: 1152px) 728px, (min-width: 768px) 66vw, 100vw",
   },
   {
     src: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1200&q=80",
@@ -93,7 +93,7 @@ export const gallery: GalleryPhoto[] = [
 
     ratio: "aspect-[4/5]",
 
-    sizes: "(min-width: 768px) 42vw, 100vw",
+    sizes: "(min-width: 1152px) 446px, (min-width: 768px) 42vw, 100vw",
   },
   {
     src: "https://images.unsplash.com/photo-1495954484750-af469f2f9be5?auto=format&fit=crop&w=1800&q=80",
@@ -104,7 +104,7 @@ export const gallery: GalleryPhoto[] = [
 
     ratio: "aspect-[3/2]",
 
-    sizes: "(min-width: 768px) 58vw, 100vw",
+    sizes: "(min-width: 1152px) 634px, (min-width: 768px) 58vw, 100vw",
   },
   {
     src: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80",
@@ -115,7 +115,7 @@ export const gallery: GalleryPhoto[] = [
 
     ratio: "aspect-[3/4]",
 
-    sizes: "(min-width: 768px) 33vw, 100vw",
+    sizes: "(min-width: 1152px) 352px, (min-width: 768px) 33vw, 100vw",
   },
   {
     src: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1800&q=80",
@@ -126,6 +126,6 @@ export const gallery: GalleryPhoto[] = [
 
     ratio: "aspect-[3/2]",
 
-    sizes: "(min-width: 768px) 66vw, 100vw",
+    sizes: "(min-width: 1152px) 728px, (min-width: 768px) 66vw, 100vw",
   },
 ]
